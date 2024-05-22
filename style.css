@@ -1,0 +1,113 @@
+body {
+    font-family: Oswald;
+    background-color: #f4fdfa;
+    color: #2d2f38;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    color: #2d2f38;
+    text-align: center;
+}
+
+h2 {
+    color: #2d2f38;
+}
+
+p, input, select {
+    margin: 10px 0;
+    color: #2d2f38;
+}
+
+input, select {
+    padding: 10px;
+    width: calc(100% - 24px);
+    box-sizing: border-box;
+    border: 1px solid #bac2c1;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2d2f38; 
+    color: #f4fdfa; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#exercise-of-the-day, #pizza-slices-result, #person-name, #person-ssn, #person-class, #person-details {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    p, input, select, button {
+        width: 100%;
+        font-size: 1em;
+        margin: 5px 0;
+    }
+
+    input, select {
+        padding: 8px;
+    }
+
+    button {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p, input, select, button {
+        width: 100%;
+        font-size: 0.9em;
+        margin: 5px 0;
+    }
+
+    input, select {
+        padding: 6px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
